@@ -18,6 +18,9 @@ function App() {
           Run for your life
         </a>
       </header>
+      <p className>
+        ""
+      </p>
     </div>
   );
 }
