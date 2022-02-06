@@ -18,8 +18,8 @@ function App() {
           Run for your life
         </a>
       </header>
-      <p className>
-        ""
+      <p className="App-text">
+        "Koichi, you are a reliable guy." - Kujo Jotaro
       </p>
     </div>
   );
