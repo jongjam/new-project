@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+.Koichi-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -10,8 +10,8 @@
 
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 2s alternate-reverse;
+  .Koichi-logo {
+    animation: Koichi-logo-spin infinite 2s alternate-reverse;
   }
 }
 
@@ -30,13 +30,28 @@
   color: #f71c0c;
 }
 
-@keyframes App-logo-spin {
+@keyframes Koichi-logo-spin {
   from {
     transform: translateX(400px);
   }
   to {
     transform: translateX(-400px);
   }
+}
+
+button {
+  height : 30px;
+  width : 100px;
+  border-radius: 5px;
+}
+
+.display{
+  width : 200px;
+  padding : 20px;
+  margin-top: 5vh;
+  background-color: wheat;
+  color: gray;
+  align-items: center;
 }
 
 .App-text {
