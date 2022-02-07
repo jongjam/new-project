@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
 .Koichi-logo {
@@ -11,12 +12,11 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .Koichi-logo {
-    animation: Koichi-logo-spin infinite 2s alternate-reverse;
+    animation: Koichi-logo-spin infinite 10s alternate-reverse;
   }
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -39,6 +39,23 @@
   }
 }
 
+.name-input {
+  display : flex;
+  flex-direction: column;  
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  width: 375px;
+  margin: auto;
+}
+
+form {
+  display : flex;
+  flex-direction: row;  
+  align-items: center;
+  justify-content: center;
+}
+
 button {
   height : 30px;
   width : 100px;
@@ -53,6 +70,33 @@ button {
   color: gray;
   align-items: center;
 }
+
+input{
+  margin : 10px;
+  height : 22px;
+  width : 200px;
+  border-radius: 5px;
+}
+
+.okuyasu-section {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.Okuyasu-logo {
+  animation: Okuyasu-logo-spin infinite 7.5s linear;
+}
+
+@keyframes Okuyasu-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
 
 .App-text {
   font-style: italic;

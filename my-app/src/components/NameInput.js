@@ -5,10 +5,10 @@ function NameInput() {
     const userInput = useRef();
     //like another method call. 
     return (
-       <div> 
+       <div className="name-input"> 
            <form onSubmit={ (e)=>e.preventDefault()}>
                <input placeholder="RUN" ref={ userInput } type="text"></input>
-               <button onClick={ ()=>setState(userInput.current.value)}></button>
+               <button onClick={ ()=>setState(userInput.current.value)}>RUN</button>
            </form>
            <div className="display">{ state }</div>
        </div> 

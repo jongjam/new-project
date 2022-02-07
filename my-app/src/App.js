@@ -1,14 +1,16 @@
-import logo from './nightmare.png';
+import koichi from './nightmare.png';
+import okuyasu from './okuyasu.gif';
 import NameInput from './components/NameInput.js'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+     
+      <header className="App-header">
       <NameInput>
       </NameInput> 
-      <header className="App-header">
-        <img src={logo} className="Koichi-logo" alt="logo" />
+        <img src={koichi} className="Koichi-logo" alt="koichi" />
         <a
           className="App-link"
           href="https://youtu.be/1BY9OMU8tXA?t=151"
@@ -20,9 +22,12 @@ function App() {
         <p className="App-text">
           "Koichi, you are a reliable guy." - Kujo Jotaro
         </p>
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        
       </header>
-      
+      <div className="okuyasu-section">
+        <img src={okuyasu} className="Okuyasu-logo" alt="okuyasu" />
+      </div>
+     
     </div>
   );
 }
