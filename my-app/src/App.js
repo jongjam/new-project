@@ -25,10 +25,17 @@ function App() {
         
       </header>
       {/* /**TODO : ADD VIDEO AND QUOTE. SEARCH FUNCTIONALITY NEXT**/}
-      <div className="okuyasu-section">
+      <div className="Okuyasu-section">
+      
         <img src={okuyasu} className="Okuyasu-logo" alt="okuyasu" />
+        <a className="Okuyasu-link"
+         href="https://www.youtube.com/watch?v=8C0-PPFpvfQ">
+          Oi Koichi
+        </a>
+        <p className="Okuyasu-text">
+          "I'm not that smart, okay? I just do what my heart tells me to do." - Okuyasu Nijimura
+        </p>
       </div>
-     
     </div>
   );
 }
