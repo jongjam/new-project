@@ -24,6 +24,7 @@ function App() {
         </p>
         
       </header>
+      {/* /**TODO : ADD VIDEO AND QUOTE. SEARCH FUNCTIONALITY NEXT**/}
       <div className="okuyasu-section">
         <img src={okuyasu} className="Okuyasu-logo" alt="okuyasu" />
       </div>
