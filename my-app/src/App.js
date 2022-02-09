@@ -29,7 +29,7 @@ function App() {
       
         <img src={okuyasu} className="Okuyasu-logo" alt="okuyasu" />
         <a className="Okuyasu-link"
-         href="https://www.youtube.com/watch?v=8C0-PPFpvfQ">
+         href="https://www.youtube.com/watch?v=oHkgmAP1kUI">
           Oi Koichi
         </a>
         <p className="Okuyasu-text">
